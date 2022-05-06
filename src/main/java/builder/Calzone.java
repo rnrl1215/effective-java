@@ -1,5 +1,8 @@
 package builder;
 
+import lombok.Getter;
+
+@Getter
 public class Calzone extends Pizza {
     private final boolean sauceInside;
 

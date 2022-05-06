@@ -1,7 +1,10 @@
 package builder;
 
+import lombok.Getter;
+
 import java.util.Objects;
 
+@Getter
 public class NyPizza extends Pizza{
     public enum Size {SMALL, MEDIUM, LARGE}
     private final Size size;
